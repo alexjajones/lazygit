@@ -1,4 +1,17 @@
-promptToReturnFromSubprocess: true
+disableStartupPopups: true
+
+gui:
+  showRandomTip: false
+  showCommandLog: false
 
 os:
   editPreset: 'nvim'
+
+promptToReturnFromSubprocess: false
+
+keybinding:
+  universal:
+    executeShellCommand: '!'
+  files:
+    commitChanges: C
+    commitChangesWithEditor: c
